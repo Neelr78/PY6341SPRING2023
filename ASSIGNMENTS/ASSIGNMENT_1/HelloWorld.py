@@ -7,6 +7,6 @@
 # Helloworld.py
 
 print(" Hello World!")
-print("\n My name is Neel Raval")
+print("\n My name is Neel Raval") # \n is used for adding new line
 print("\n I am a python student")
 print("\n Have a nice day!")
