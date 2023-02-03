@@ -6,15 +6,15 @@
 # Assignment Title: String_Number_Functions
 # String_Number_Functions.py
 
-value1 = 40
-value2 = 45
+Value_1 = 40
+Value_2 = 45
 print("==============================")
 print("Result Dashboard")
 print("------------------------------")
-print("value 1 : " ,value1)
-print("\nvalue 2 : " ,value2)
+print("Value 1: " ,Value_1)
+print("\nValue 2: " ,Value_2)
 print("------------------------------")
-Total_summary = value1+value2
+Total_summary = Value_1+Value_2
 print("Total Summary : ${:,.2f}".format(Total_summary))
-print("result : ${:,.2f}".format(Total_summary/7.6))
+print("Result : ${:,.2f}".format(Total_summary/7.6))
 print("==============================")
