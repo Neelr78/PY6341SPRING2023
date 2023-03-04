@@ -12,11 +12,10 @@ name2 = ""
 name3 = ""
 
 print()
-print("----------------------------")
-print()
 
 # Step 3
 print("My Full name is "+ full_name.title())
+print("----------------------------")
 print()
 
 # Step 5
