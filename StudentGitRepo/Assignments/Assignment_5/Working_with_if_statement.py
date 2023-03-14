@@ -15,25 +15,28 @@ print()
 
 # Step 3
 print("My Full name is "+ full_name.title())
+
+#Step 4
 print("----------------------------")
 print()
 
 # Step 5
 for letter in full_name:
-    # Step 5a
+    
     if letter.isupper():
         letter = letter.lower()
     else:
         letter = letter.upper()
+    print(f"ASCII value of {letter} is {ord(letter)}")
     
     name2 +=  letter + "-"
     
     name3 += str(ord(letter)) + "-" 
-    
-    print(f"ASCII value of {letter} is {ord(letter)}")
 
 print()
+#Step 6
 print("-" +name2)
 print("-" +name3)
+#Step 7
 
 print("----------------------------")
