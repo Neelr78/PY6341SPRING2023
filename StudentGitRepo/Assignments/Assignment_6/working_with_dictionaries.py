@@ -35,4 +35,3 @@ for key, value in student_info.items():
         total_marks += subvalue   
         print(subvalue, end= "\t\t")
     print("{:.2f}".format(total_marks))
-print("=" * 100)
