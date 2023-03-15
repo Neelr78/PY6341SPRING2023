@@ -15,14 +15,12 @@ students_physics_marks = [36.56,78.21,36.36,75.63,98.63,89.32,78.31,63.21,74.65,
 students_chemistry_marks = [34.45,36.68,65.45,89.65,45.74,56.74,78.89,98.62,41.42,65.23]
 
 for i in range(len(student_names)):
-    student = {}    
-    student["Math"] = students_math_marks[i]
-    student["English"] = students_english_marks[i]
-    student["Physics"] = students_physics_marks[i]
-    student["Chemistry"] = students_chemistry_marks[i]
+    student_info[student_names[i]] = {}
+    student_info[student_names[i]]["Math"] = students_math_marks[i]
+    student_info[student_names[i]]["English"] = students_english_marks[i]
+    student_info[student_names[i]]["Physics"] = students_physics_marks[i]
+    student_info[student_names[i]]["Chemistry"] = students_chemistry_marks[i]
 
-    student_info[student_names[i]] = student
-print(student_info)
 
 print("=" * 100)
 print("Name\t\tMath\t\tEnglish\t\tPhysics\t\tChemistry\tTotal Marks")
